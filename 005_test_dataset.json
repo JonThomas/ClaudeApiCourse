@@ -1,1 +1,14 @@
-[{"task": "Write a Python function that takes an S3 bucket name and a prefix string as arguments and returns a list of all object keys in that bucket matching the given prefix using boto3."}, {"task": "Write a JSON object representing an AWS IAM policy that allows read-only access to all objects in a specific S3 bucket named 'my-data-bucket', including the actions s3:GetObject and s3:ListBucket."}, {"task": "Write a regular expression that matches valid Amazon Resource Names (ARNs) and captures the partition, service, region, account ID, and resource as named groups."}]
+[
+    {
+        "task": "Write a Python function that takes an S3 bucket name and a prefix string as arguments and returns a list of all object keys in that bucket matching the prefix using boto3",
+        "format": "python"
+    },
+    {
+        "task": "Write a JSON object representing an IAM policy statement that allows read-only access (GetObject and ListBucket) to a specific S3 bucket and its contents",
+        "format": "json"
+    },
+    {
+        "task": "Write a regex that matches a valid Amazon Resource Name (ARN) and captures the partition, service, region, account ID, and resource as named groups",
+        "format": "regex"
+    }
+]
