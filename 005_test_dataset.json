@@ -1,11 +1,14 @@
 [
-  {
-    "task": "Write a Python function that validates an AWS S3 bucket name according to AWS naming rules (3-63 characters, lowercase letters, numbers, hyphens, must start and end with letter or number)"
-  },
-  {
-    "task": "Create a regular expression that matches valid AWS IAM role ARNs in the format arn:aws:iam::account-id:role/role-name"
-  },
-  {
-    "task": "Write a Python function that extracts the AWS region and service name from an AWS ARN string"
-  }
+    {
+        "task": "Write a Python function that takes an S3 bucket name and a prefix string as arguments and returns a list of all object keys in that bucket matching the prefix using boto3",
+        "format": "python"
+    },
+    {
+        "task": "Write a JSON object representing an IAM policy statement that allows read-only access (GetObject and ListBucket) to a specific S3 bucket and its contents",
+        "format": "json"
+    },
+    {
+        "task": "Write a regex that matches a valid Amazon Resource Name (ARN) and captures the partition, service, region, account ID, and resource as named groups",
+        "format": "regex"
+    }
 ]
