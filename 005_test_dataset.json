@@ -1,14 +1,17 @@
 [
     {
-        "task": "Write a Python function that takes an S3 bucket name and a prefix string as arguments and returns a list of all object keys in that bucket matching the prefix using boto3",
-        "format": "python"
+        "task": "Write a Python function that takes an S3 bucket name and a prefix string as arguments, and returns a list of all object keys in that bucket matching the given prefix using the boto3 library.",
+        "format": "python",
+        "solution_criteria": "The function must use boto3's S3 client or resource, handle pagination using a paginator or while loop with ContinuationToken to retrieve all results, and return a flat list of string keys. It should not hardcode credentials and must accept bucket name and prefix as parameters."
     },
     {
-        "task": "Write a JSON object representing an IAM policy statement that allows read-only access (GetObject and ListBucket) to a specific S3 bucket and its contents",
-        "format": "json"
+        "task": "Write an IAM policy JSON object that allows a user to list all S3 buckets and get objects from a specific S3 bucket named 'my-app-data', but explicitly denies the ability to delete any objects from that bucket.",
+        "format": "json",
+        "solution_criteria": "The JSON must be a valid IAM policy document containing a Version field set to '2012-10-17', at least two Statement entries with appropriate Effect, Action, and Resource fields. It must include s3:ListAllMyBuckets on '*', s3:GetObject on the specific bucket ARN, and an explicit Deny for s3:DeleteObject on that same bucket ARN."
     },
     {
-        "task": "Write a regex that matches a valid Amazon Resource Name (ARN) and captures the partition, service, region, account ID, and resource as named groups",
-        "format": "regex"
+        "task": "Write a regex that matches valid AWS S3 bucket names according to the naming rules: 3-63 characters long, can contain lowercase letters, numbers, and hyphens, must start and end with a letter or number, and must not contain consecutive hyphens.",
+        "format": "regex",
+        "solution_criteria": "The regex must enforce a length between 3 and 63 characters, only allow lowercase letters, digits, and hyphens, ensure the first and last characters are alphanumeric, and use a negative lookahead or similar construct to reject consecutive hyphens. It should correctly match valid names like 'my-bucket-123' and reject invalid ones like '-bucket', 'bucket-', 'MY-BUCKET', or 'bu--cket'."
     }
 ]
