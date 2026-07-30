@@ -1,0 +1,65 @@
+[
+  {
+    "output": "# One-Day Meal Plan for Performance Athlete\n\n## Daily Caloric Target: 3,100 calories\n**Athlete Profile:** 180cm, 78kg - High activity level with multiple training sessions\n\n---\n\n## BREAKFAST (7:00 AM) | 680 calories\n**Pre-workout fuel**\n- Oatmeal: 85g dry (305 cal)\n- Banana: 150g (134 cal)\n- Whole eggs: 2 large (155 cal)\n- Almond butter: 20g (194 cal)\n- Honey: 15g (46 cal)\n\n**Macros:** 24g protein | 19g fat | 98g carbs\n\n---\n\n## PRE-TRAINING SNACK (10:00 AM) | 320 calories\n**1-2 hours before morning session**\n- Greek yogurt (0%): 200g (130 cal)\n- Granola: 45g (190 cal)\n\n**Macros:** 16g protein | 4g fat | 52g carbs\n\n---\n\n## LUNCH (1:00 PM) | 800 calories\n**Post-training recovery**\n- Lean ground beef (93/7): 220g (355 cal)\n- White rice: 160g cooked (208 cal)\n- Olive oil: 12ml (108 cal)\n- Carrots: 100g (41 cal)\n- Whole wheat bread: 60g (158 cal)\n- Apple: 150g (80 cal)\n\n**Macros:** 56g protein | 14g fat | 86g carbs\n\n---\n\n## AFTERNOON SNACK (4:00 PM) | 300 calories\n**Pre-evening training**\n- Cottage cheese (2%): 220g (220 cal)\n- Berries (mixed): 100g (60 cal)\n- Almonds: 18g (108 cal)\n\n**Macros:** 28g protein | 8g fat | 22g carbs\n\n---\n\n## DINNER (7:30 PM) | 650 calories\n**Evening recovery**\n- Grilled chicken breast: 220g (363 cal)\n- Sweet potato: 200g (140 cal)\n- Mixed green salad: 120g (30 cal)\n- Olive oil dressing: 12ml (108 cal)\n- Orange: 150g (60 cal)\n\n**Macros:** 54g protein | 12g fat | 56g carbs\n\n---\n\n## BEDTIME SNACK (9:30 PM) | 350 calories\n**Overnight recovery support**\n- Casein protein powder: 35g (140 cal)\n- Whole milk: 200ml (134 cal)\n- Banana: 100g (89 cal)\n- Peanut butter: 10g (95 cal)\n\n**Macros:** 32g protein | 8g fat | 39g carbs\n\n---\n\n## DAILY TOTALS\n\n| Macronutrient | Amount | % of Calories |\n|---|---|---|\n| **Protein** | 210g | 27% |\n| **Carbohydrates** | 353g | 45% |\n| **Fat** | 65g | 19% |\n| **Fiber** | ~32g | \u2014 |\n| **Total Calories** | 3,100 | \u2014 |\n\n---\n\n## Hydration Reminder\n- 3.5-4 liters of water daily\n- Electrolyte drink (500ml) during/after each training session\n- Monitor urine color for hydration status\n\n## Notes\n\u2713 High protein (210g) supports muscle repair and recovery across multiple sessions  \n\u2713 Strategic carb timing maximizes training performance  \n\u2713 Meals spaced 2.5-3 hours apart for optimal digestion  \n\u2713 Budget-conscious whole food choices  \n\u2713 Flexible meal times\u2014adjust \u00b130 minutes based on training schedule",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "180 cm",
+        "weight": "78 kg",
+        "goal": "maintain performance and recovery with multiple training sessions",
+        "restrictions": "none"
+      },
+      "solution_criteria": [
+        "Meal plan covers all meals for one full day (breakfast, lunch, dinner, and snacks)",
+        "Provides balanced macronutrients suitable for a soccer player with moderate-to-high intensity training",
+        "Includes adequate carbohydrates and protein to support multiple training sessions and recovery",
+        "Plan is compact and concise (fits within a single day overview)"
+      ],
+      "task_description": "Write a single, compact, concise 1 day meal plan for a single athlete",
+      "scenario": "Testing with a mixed-sport athlete (soccer player) with moderate intensity demands, balanced macronutrient needs, and multiple training sessions in one day"
+    },
+    "score": 9,
+    "reasoning": "The solution fully satisfies all mandatory requirements with precision: daily caloric total is clearly stated, macronutrient breakdown is comprehensive and accurate, and all meals include exact portions with specific timing. The macro ratios (27% protein, 45% carbs, 19% fat) are appropriate for an athlete with multiple training sessions. The plan is genuinely compact and concise despite being thorough. Secondary criteria are largely met\u2014the plan covers all meal types, provides balanced macronutrients, includes adequate carbs and protein for recovery, and fits within a single-day overview. The main weaknesses are minor: lack of explicit caloric calculation justification and no sport-specific acknowledgment. These do not undermine the core quality of the solution."
+  },
+  {
+    "output": "# One-Day Meal Plan for Weightlifting Athlete\n## Daily Caloric Target: 3,400 calories\n**Athlete Profile:** 178cm, 82kg - Strength training focus with muscle gain goal\n\n---\n\n## BREAKFAST (7:00 AM) | 750 calories\n**Pre-workout energy & muscle building**\n- Whole eggs: 3 large (234 cal)\n- Oatmeal: 100g dry (355 cal)\n- Whole milk: 200ml (128 cal)\n- Honey: 15g (48 cal)\n- Walnuts: 20g (132 cal)\n\n**Macros:** 28g protein | 22g fat | 105g carbs\n\n---\n\n## PRE-TRAINING SNACK (10:00 AM) | 320 calories\n**30-45 minutes before lifting**\n- Banana: 180g (161 cal)\n- Almond butter: 25g (159 cal)\n\n**Macros:** 6g protein | 9g fat | 42g carbs\n\n---\n\n## LUNCH (1:30 PM) | 850 calories\n**Post-training recovery & strength support**\n- Lean ground beef (90/10): 250g (420 cal)\n- White rice: 180g cooked (234 cal)\n- Olive oil: 12ml (108 cal)\n- Spinach: 100g raw (23 cal)\n- Apple: 180g (95 cal)\n\n**Macros:** 58g protein | 18g fat | 92g carbs\n\n---\n\n## AFTERNOON SNACK (4:00 PM) | 380 calories\n**Pre-evening training fuel**\n- Greek yogurt (plain): 250g (160 cal)\n- Granola: 50g (213 cal)\n- Blueberries: 80g (48 cal)\n\n**Macros:** 20g protein | 6g fat | 52g carbs\n\n---\n\n## DINNER (7:30 PM) | 750 calories\n**Evening muscle recovery**\n- Chicken breast: 220g (367 cal)\n- Sweet potato: 250g (175 cal)\n- Broccoli: 150g (52 cal)\n- Olive oil: 10ml (90 cal)\n- Brown rice: 80g cooked (104 cal)\n- Lemon juice: 15ml (3 cal)\n\n**Macros:** 56g protein | 14g fat | 85g carbs\n\n---\n\n## BEDTIME SNACK (9:30 PM) | 350 calories\n**Overnight recovery support**\n- Cottage cheese (2%): 300g (240 cal)\n- Almonds: 25g (144 cal)\n- Casein protein powder: 25g (100 cal)\n\n**Macros:** 38g protein | 11g fat | 8g carbs\n\n---\n\n## DAILY TOTALS\n\n| Macronutrient | Amount | % of Calories |\n|---|---|---|\n| **Protein** | 206g | 24% |\n| **Carbohydrates** | 384g | 45% |\n| **Fat** | 80g | 21% |\n| **Fiber** | ~32g | \u2014 |\n| **Total Calories** | 3,400 | \u2014 |\n\n---\n\n## Hydration Reminder\n- 4-5 liters of water daily\n- 500ml electrolyte drink during/after intense lifting sessions\n- Sip water consistently throughout the day\n\n## Notes\n\u2713 High protein distribution (206g) supports muscle protein synthesis  \n\u2713 Strategic carb timing maximizes training performance  \n\u2713 Emphasis on strength-building foods (eggs, beef, chicken)  \n\u2713 Adequate calorie surplus for muscle gain goals  \n\u2713 Budget-friendly whole foods with optimal timing  \n\u2713 Well-suited for 4-5 day/week weightlifting program",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "178 cm",
+        "weight": "82 kg",
+        "goal": "muscle gain and strength improvement for weightlifting competition",
+        "restrictions": "none"
+      },
+      "solution_criteria": [
+        "Meal plan includes 4-5 eating occasions distributed throughout the day",
+        "Total daily protein is elevated (approximately 1.8-2.2g per kg body weight)",
+        "At least one substantial meal or snack is positioned within 2 hours post-training to support recovery",
+        "Plan is presented in a single, easy-to-scan format suitable for one day"
+      ],
+      "task_description": "Write a single, compact, concise 1 day meal plan for a single athlete",
+      "scenario": "Testing with a strength/power sport athlete (weightlifter) needing elevated protein distribution and strategic nutrient timing around resistance training"
+    },
+    "score": 10,
+    "reasoning": "The solution comprehensively satisfies all mandatory requirements with precise daily caloric total, detailed macronutrient breakdown, and exact foods with portions and timing. It exceeds all secondary criteria: provides 6 eating occasions (exceeds 4-5 requirement), delivers 206g protein (2.51g/kg, well above 1.8-2.2g/kg target), and includes a substantial post-training meal appropriately timed. The format is single, compact, and highly scannable with clear organization. The only minor consideration is that training timing is assumed rather than explicitly stated in the inputs, though this is a reasonable assumption for a weightlifting athlete and doesn't violate any stated criteria."
+  },
+  {
+    "output": "# One-Day Meal Plan for Marathon Training Athlete\n## Daily Caloric Target: 3,200 calories\n**Athlete Profile:** 178cm, 68kg - Marathon training with 2-hour long run session and high carbohydrate focus\n\n---\n\n## BREAKFAST (6:30 AM) | 550 calories\n**Pre-long run fuel - 2 hours before training**\n- Oatmeal: 100g dry (356 cal)\n- Banana: 120g (107 cal)\n- Whole milk: 150ml (100 cal)\n- Honey: 15g (46 cal)\n- Pinch of salt\n**Macros:** 15g protein | 8g fat | 105g carbs\n\n---\n\n## DURING LONG RUN (8:30 AM - 10:30 AM) | 300 calories\n**Fuel during 2-hour session**\n- Sports drink (6% carbs): 1,000ml (240 cal)\n- Energy gel packets: 2x (120 cal)\n**Macros:** 2g protein | 0g fat | 75g carbs\n\n---\n\n## POST-RUN RECOVERY SNACK (10:45 AM) | 380 calories\n**Immediate recovery within 30 minutes of finishing**\n- Chocolate milk (2%): 400ml (190 cal)\n- Rice cakes: 40g (155 cal)\n- Almond butter: 15g (89 cal)\n**Macros:** 12g protein | 6g fat | 58g carbs\n\n---\n\n## LUNCH (1:00 PM) | 720 calories\n**Recovery and refueling after run**\n- Lean ground turkey: 180g (288 cal)\n- White rice: 180g cooked (234 cal)\n- Olive oil: 10ml (90 cal)\n- Carrots: 100g (41 cal)\n- Peas: 80g (67 cal)\n**Macros:** 38g protein | 11g fat | 82g carbs\n\n---\n\n## AFTERNOON SNACK (3:30 PM) | 320 calories\n**Pre-evening session fuel**\n- Bagel (white): 70g (189 cal)\n- Honey: 20g (61 cal)\n- Banana: 100g (89 cal)\n**Macros:** 6g protein | 2g fat | 71g carbs\n\n---\n\n## DINNER (6:30 PM) | 680 calories\n**Evening recovery meal**\n- Grilled chicken breast: 200g (330 cal)\n- Sweet potato: 250g (175 cal)\n- Olive oil: 10ml (90 cal)\n- Spinach salad: 80g (22 cal)\n- Orange: 150g (60 cal)\n**Macros:** 50g protein | 11g fat | 76g carbs\n\n---\n\n## BEDTIME SNACK (9:00 PM) | 270 calories\n**Overnight recovery support**\n- Greek yogurt (0%): 200g (130 cal)\n- Granola: 30g (140 cal)\n**Macros:** 18g protein | 2g fat | 47g carbs\n\n---\n\n## DAILY TOTALS\n| Macronutrient | Amount | % of Calories |\n|---|---|---|\n| **Protein** | 141g | 18% |\n| **Carbohydrates** | 514g | 64% |\n| **Fat** | 40g | 11% |\n| **Fiber** | ~32g | \u2014 |\n| **Total Calories** | 3,200 | \u2014 |\n\n---\n\n## Hydration Strategy\n- **Before run (6:30-8:30 AM):** 500ml water\n- **During 2-hour run:** 750ml sports drink (electrolytes included)\n- **Post-run to evening:** 2-2.5 liters water\n- **Total daily:** 4+ liters of fluids\n\n## Notes\n\u2713 **High carbohydrate focus (64%)** supports marathon training demands  \n\u2713",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "178 cm",
+        "weight": "68 kg",
+        "goal": "marathon training with high carbohydrate intake and optimal timing around a 2-hour long run session",
+        "restrictions": "none"
+      },
+      "solution_criteria": [
+        "Meal plan covers one full day with breakfast, pre-run, during-run (if applicable), post-run, and dinner meals",
+        "Total daily carbohydrate intake is high (approximately 8-10g per kg body weight) to support endurance training",
+        "Pre-run meal is consumed 2-3 hours before the long run session and post-run meal includes carbohydrates and protein within 30-60 minutes after completion",
+        "Plan is compact and presented in a single, easy-to-read format"
+      ],
+      "task_description": "Write a single, compact, concise 1 day meal plan for a single athlete",
+      "scenario": "Testing with a high-performance endurance athlete (marathon runner) requiring high carbohydrate intake and specific timing around long training sessions"
+    },
+    "score": 8,
+    "reasoning": "The solution fully satisfies all mandatory requirements: it includes daily caloric total (3,200), complete macronutrient breakdown, and meals with exact foods, portions, and timing. It covers all required meal categories (breakfast, pre-run, during-run, post-run, dinner) in a single, well-organized format. The carbohydrate strategy at 7.6g/kg is solid but slightly below the 8-10g/kg target range. The pre-run and post-run timing and composition are exemplary. The plan is compact and easy to read. Minor optimization opportunities exist in total carbohydrate volume and during-run fueling intensity, but these do not constitute failures against stated criteria."
+  }
+]

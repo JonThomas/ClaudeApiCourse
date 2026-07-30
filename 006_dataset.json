@@ -1,0 +1,50 @@
+[
+  {
+    "prompt_inputs": {
+      "height": "180 cm",
+      "weight": "78 kg",
+      "goal": "maintain performance and recovery with multiple training sessions",
+      "restrictions": "none"
+    },
+    "solution_criteria": [
+      "Meal plan covers all meals for one full day (breakfast, lunch, dinner, and snacks)",
+      "Provides balanced macronutrients suitable for a soccer player with moderate-to-high intensity training",
+      "Includes adequate carbohydrates and protein to support multiple training sessions and recovery",
+      "Plan is compact and concise (fits within a single day overview)"
+    ],
+    "task_description": "Write a single, compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a mixed-sport athlete (soccer player) with moderate intensity demands, balanced macronutrient needs, and multiple training sessions in one day"
+  },
+  {
+    "prompt_inputs": {
+      "height": "178 cm",
+      "weight": "82 kg",
+      "goal": "muscle gain and strength improvement for weightlifting competition",
+      "restrictions": "none"
+    },
+    "solution_criteria": [
+      "Meal plan includes 4-5 eating occasions distributed throughout the day",
+      "Total daily protein is elevated (approximately 1.8-2.2g per kg body weight)",
+      "At least one substantial meal or snack is positioned within 2 hours post-training to support recovery",
+      "Plan is presented in a single, easy-to-scan format suitable for one day"
+    ],
+    "task_description": "Write a single, compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a strength/power sport athlete (weightlifter) needing elevated protein distribution and strategic nutrient timing around resistance training"
+  },
+  {
+    "prompt_inputs": {
+      "height": "178 cm",
+      "weight": "68 kg",
+      "goal": "marathon training with high carbohydrate intake and optimal timing around a 2-hour long run session",
+      "restrictions": "none"
+    },
+    "solution_criteria": [
+      "Meal plan covers one full day with breakfast, pre-run, during-run (if applicable), post-run, and dinner meals",
+      "Total daily carbohydrate intake is high (approximately 8-10g per kg body weight) to support endurance training",
+      "Pre-run meal is consumed 2-3 hours before the long run session and post-run meal includes carbohydrates and protein within 30-60 minutes after completion",
+      "Plan is compact and presented in a single, easy-to-read format"
+    ],
+    "task_description": "Write a single, compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a high-performance endurance athlete (marathon runner) requiring high carbohydrate intake and specific timing around long training sessions"
+  }
+]
