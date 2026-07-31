@@ -16,5 +16,8 @@ Keywords:
   * Being spesific: Provide a guildeline/ steps to direct the model
   * Provide structure by using XML tags
   * Provide examples (Here: By taking a great response from Claude and using it as an example, wrapping it in XML comments)
+* Tool use
+* Fine grained tool calling
+  * fine_grained = True <---- Claude will stream large json responses back to our server immediately, without waiting to check if Claude actually produces valid JSON
 * Jupyter notebooks
 * Python
