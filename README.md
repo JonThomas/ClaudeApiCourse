@@ -17,7 +17,11 @@ Keywords:
   * Provide structure by using XML tags
   * Provide examples (Here: By taking a great response from Claude and using it as an example, wrapping it in XML comments)
 * Tool use
-* Fine grained tool calling
-  * fine_grained = True <---- Claude will stream large json responses back to our server immediately, without waiting to check if Claude actually produces valid JSON
+  * JSON schemas used to tell Claude about local tools, and how to implement the tools
+  * Fine grained tool calling
+     * fine_grained = True <---- Claude will stream large json responses back to our server immediately, without waiting to check if Claude actually produces valid JSON
+  * Text editor tool: Built into Claude
+     * Gives Claude ability to do most any text editing operations 
+     * **Updated code to use supported model claude-sonnet-4-5**
 * Jupyter notebooks
 * Python
